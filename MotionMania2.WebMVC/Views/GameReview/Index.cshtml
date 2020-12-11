@@ -1,0 +1,81 @@
+﻿@model IEnumerable<MotionMania2.Models.GameReviewListItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 id="table-head">Video Game Manias</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@if (TempData.ContainsKey("SaveResult"))
+{
+    <div class="alert alert-success fade in" role="alert">
+
+        <button type="button" class="close" data-dismiss="alert">
+            <span>&times;</span>
+        </button>
+        @TempData["SaveReult"]
+    </div>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.GameTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GameDeveloper)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Platform)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GameGenre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GameReleaseYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GameMania)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GameRating)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GameTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GameDeveloper)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Platform)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GameGenre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GameReleaseYear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GameMania)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GameRating)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.GameReviewId })
+                @Html.ActionLink("Details", "Details", new { id = item.GameReviewId })
+                @Html.ActionLink("Delete", "Delete", new { id = item.GameReviewId })
+            </td>
+        </tr>
+    }
+
+</table>
+

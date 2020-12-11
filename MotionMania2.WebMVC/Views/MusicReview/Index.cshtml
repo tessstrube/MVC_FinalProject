@@ -1,0 +1,75 @@
+﻿@model IEnumerable<MotionMania2.Models.MusicReviewListItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 id="table-head">Music Manias</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@if (TempData.ContainsKey("SaveResult"))
+{
+    <div class="alert alert-success fade in" role="alert">
+
+        <button type="button" class="close" data-dismiss="alert">
+            <span>&times;</span>
+        </button>
+        @TempData["SaveResult"]
+    </div>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Artist)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MusicTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReleaseType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MusicGenreType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MusicMania)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MusicRating)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Artist)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MusicTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReleaseType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MusicGenreType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MusicMania)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MusicRating)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.MusicReviewId })
+                @Html.ActionLink("Details", "Details", new { id = item.MusicReviewId })
+                @Html.ActionLink("Delete", "Delete", new { id = item.MusicReviewId })
+            </td>
+        </tr>
+    }
+
+</table>
+

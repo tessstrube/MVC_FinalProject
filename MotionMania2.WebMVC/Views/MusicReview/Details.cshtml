@@ -1,0 +1,64 @@
+﻿@model MotionMania2.Models.MusicReviewDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div id="maniaLayout">
+    <h2>Mania Details</h2>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Artist)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Artist)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MusicTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MusicTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReleaseType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReleaseType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MusicGenreType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MusicGenreType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MusicMania)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MusicMania)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MusicRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MusicRating)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MusicReviewId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

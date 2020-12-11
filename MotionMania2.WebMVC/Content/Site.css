@@ -1,0 +1,207 @@
+﻿html body {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    background-color: aqua;
+}
+
+
+.navbar-brand {
+    font-family: 'Poppins, sans-serif';
+    padding-top: 20px;
+    font-size: 145%;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+
+    .navbar-brand:hover {
+        color: mediumslateblue;
+        background: transparent;
+    }
+
+
+#navbarOp {
+    padding-top: 5px;
+    font-family: 'Poppins, sans-serif';
+    font-size: 125%;
+    letter-spacing: 1px;
+}
+
+ #navbarOp a {
+    color: whitesmoke;
+}
+
+#navbarOp li a:hover {
+    color: mediumslateblue;
+    background-color: transparent;
+}
+
+#loginBtn li a {
+    padding-top: 19px;
+    color: whitesmoke;
+    font-family: 'Poppins, sans-serif';
+    font-size: 125%;
+    letter-spacing: 1px;
+}
+
+#loginBtn li a:hover {
+    color: mediumslateblue;
+    background-color: transparent;
+}
+
+.jumbotron {
+    padding-right: 0;
+    width: -100vw;
+    background-color: darkgray;
+    box-shadow: inherit;
+}
+
+.jumbotron h1 {
+    font-family: 'Major Mono Display';
+    font-size: 5vw;
+    z-index: 10;
+    letter-spacing: 8px;
+    color: mediumslateblue;
+    padding-right: 46%;
+}
+
+.jumbotron p {
+    font-family: 'Poppins, sans-serif';
+    color: whitesmoke;
+    font-size: 21px;
+    padding-left: 35%;
+}
+
+.row p {
+    padding-left: 16%;
+    color: white;
+    font-family: 'Poppins, sans-serif';
+}
+
+.createMusicMania {
+    color: white;
+    font-family: 'Poppins, sans-serif';
+    background-size: contain;
+    display: block;
+    width: 300px;
+    height: 300px;
+    text-indent: -9999px;
+}
+
+.createGameMania {
+    color: white;
+    display: block;
+    width: 300px;
+    height: 300px;
+    text-indent: -9999px;
+}
+
+.createMovieMania {
+    color: white;
+    background-size: contain;
+    display: block;
+    width: 300px;
+    height: 300px;
+    text-indent: -9999px;
+}
+
+#copyInfo {
+    font-family: 'Poppins, sans-serif';
+    font-size: 125%;
+    color: whitesmoke;
+}
+
+.row-two {
+    font-family: 'Poppins, sans-serif';
+    color: whitesmoke;
+    padding-top: 8%;
+    padding-left: 8%;
+}
+
+#musicHead h2 {
+    font-family: 'Poppins, sans-serif';
+    font-size: 300%;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    padding-left: 18%;
+}
+
+#gameHead h2 {
+    font-family: 'Poppins, sans-serif';
+    font-size: 300%;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+
+#movieHead h2 {
+    font-family: 'Poppins, sans-serif';
+    font-size: 300%;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    padding-right: 25%;
+}
+
+#maniaLayout {
+    font-family: 'Poppins, sans-serif';
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+#maniaLayout h2 {
+    font-family: 'Poppins, sans-serif';
+    font-size: 165%;
+}
+
+#table-head {
+    font-family: 'Poppins, sans-serif';
+    color: whitesmoke;
+    font-size: 275%;
+}
+
+.table {
+    font-family: 'Poppins, sans-serif';
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.table th {
+    font-family: 'Poppins, sans-serif';
+    color: black;
+    font-size: 20px;
+}
+
+.btn {
+    color: whitesmoke;
+    border-color: mediumslateblue;
+    background-color: darkgray;
+}
+
+.btn:hover {
+    color: whitesmoke;
+    border-color: mediumslateblue;
+    background-color: mediumslateblue;
+    }
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}

@@ -1,0 +1,62 @@
+﻿@model MotionMania2.Models.MusicReviewDetail
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<div id="maniaLayout">
+    <h2>Are you sure you want to delete this Mania?</h2>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MusicReviewId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MusicReviewId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Artist)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Artist)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MusicTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MusicTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MusicMania)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MusicMania)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MusicRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MusicRating)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-secondary" /> |
+            @Html.ActionLink("View Music Manias", "Index")
+        </div>
+    }
+</div>

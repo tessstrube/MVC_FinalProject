@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <div class="container">
+
+        <h1 class="text-center">MotionMania</h1>
+        <p class="lead">Motion Mania, a place for media maniacs to share their opinions, ratings, and reviews. Get started today by creating an account and selecting a catagory below</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <p>@Html.ActionLink("New Music Mania", "Create", "MusicReview", null, new { @class = "btn btn-primary btn-large" })</p>
+    </div>
+    <div class="col-md-4">
+        <p>@Html.ActionLink("New Game Mania", "Create", "GameReview", null, new { @class = "btn btn-primary btn-large" })</p>
+    </div>
+    <div class="col-md-4">
+        <p>@Html.ActionLink("New Movie Mania", "Create", "MovieReview", null, new { @class = "btn btn-primary btn-large" })</p>
+    </div>
+</div>

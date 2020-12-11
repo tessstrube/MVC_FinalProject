@@ -1,0 +1,63 @@
+﻿@model MotionMania2.Models.MovieReviewDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+<div id="maniaLayout">
+    <h2>Mania Details</h2>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MovieTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MovieTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MovieReleaseYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MovieReleaseYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Director)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Director)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MovieGenre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MovieGenre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MovieMania)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MovieMania)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MovieRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MovieRating)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MovieReviewId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

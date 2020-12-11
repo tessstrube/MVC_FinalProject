@@ -1,0 +1,16 @@
+C:\MVCFinalRedBadge\MotionMania2\MotionMania2.Data\obj\Debug\MotionMania2.Data.csprojAssemblyReference.cache
+C:\MVCFinalRedBadge\MotionMania2\MotionMania2.Data\obj\Debug\MotionMania2.Data.csproj.CoreCompileInputs.cache
+C:\MVCFinalRedBadge\MotionMania2\MotionMania2.Data\bin\Debug\MotionMania2.Data.dll.config
+C:\MVCFinalRedBadge\MotionMania2\MotionMania2.Data\bin\Debug\MotionMania2.Data.dll
+C:\MVCFinalRedBadge\MotionMania2\MotionMania2.Data\bin\Debug\MotionMania2.Data.pdb
+C:\MVCFinalRedBadge\MotionMania2\MotionMania2.Data\bin\Debug\EntityFramework.dll
+C:\MVCFinalRedBadge\MotionMania2\MotionMania2.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\MVCFinalRedBadge\MotionMania2\MotionMania2.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\MVCFinalRedBadge\MotionMania2\MotionMania2.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\MVCFinalRedBadge\MotionMania2\MotionMania2.Data\bin\Debug\EntityFramework.xml
+C:\MVCFinalRedBadge\MotionMania2\MotionMania2.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\MVCFinalRedBadge\MotionMania2\MotionMania2.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\MVCFinalRedBadge\MotionMania2\MotionMania2.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\MVCFinalRedBadge\MotionMania2\MotionMania2.Data\obj\Debug\MotionMania2.Data.csproj.CopyComplete
+C:\MVCFinalRedBadge\MotionMania2\MotionMania2.Data\obj\Debug\MotionMania2.Data.dll
+C:\MVCFinalRedBadge\MotionMania2\MotionMania2.Data\obj\Debug\MotionMania2.Data.pdb

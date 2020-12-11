@@ -1,0 +1,72 @@
+﻿@model MotionMania2.Models.GameReviewDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div id="maniaLayout">
+    <h2>Mania Details</h2>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.GameTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GameTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GameDeveloper)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GameDeveloper)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Platform)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Platform)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GameGenre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GameGenre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GameReleaseYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GameReleaseYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GameMania)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GameMania)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GameRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GameRating)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.GameReviewId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
